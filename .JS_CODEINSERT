@@ -9,7 +9,7 @@ javascript: (async () => {
             if (window.location.pathname != '/play/gold') {
                 alert('You must be in a gold quest game!');
             } else {
-                alert('Chest ESP enabled');
+                alert('Chest ESP enabled, have fun xray hacker (Your Teacher wont like this!)');
 
                 interval = setInterval(() => {
                     if (window.location.pathname != '/play/gold') return clearInterval(interval);
