@@ -1,5 +1,5 @@
-//insert this in console//
-(async () => {
+//insert this in console or use dev console, for that dont copy javascript://
+javascript: (async () => {
     let n = document.createElement('iframe');
     document.body.append(n);
     window.alert = n.contentWindow.alert.bind(window);
